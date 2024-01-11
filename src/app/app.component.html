@@ -1,0 +1,100 @@
+<div class="super-container w-screen h-screen overflow-hidden relative">
+  <!-- BG img -->
+  <div class="bgImgContainer h-screen w-screen overflow-hidden">
+      <div class="rowImg w-full h-full flex">
+          <img class="w-full h-full object-cover" src="../assets/Rectangle 2.png" alt="">
+          <img class="w-full h-full object-cover" src="../assets/Rectangle 2.png" alt="">
+          <img class="w-full h-full object-cover" src="../assets/Rectangle 4.png" alt="">
+          <img class="w-full h-full object-cover" src="../assets/Rectangle 3.png" alt="">
+          <img class="w-full h-full object-cover" src="../assets/Rectangle 5.png" alt="">
+      </div>
+  </div>
+  <!-- BG name -->
+  <div class="bgName">
+      <div class="rowText flex translate-x-full">
+          <div class="text min-w-full text-center">Ravenna</div>
+          <div class="text min-w-full text-center">Drakonos</div>
+          <div class="text min-w-full text-center">Valkyra</div>
+          <div class="text min-w-full text-center">Ignatia</div>
+      </div>
+  </div>
+  <!-- Arrow Section -->
+  <div class="arrowSection w-full">
+      <div class="content_arrows flex items-center justify-between w-full p-4">
+          <div class="parentSVG rounded-full" (click)="precedent()">
+              <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M0.646447 3.64645C0.451185 3.84171 0.451185 4.15829 0.646447 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646447 3.64645ZM16 3.5L1 3.5V4.5L16 4.5V3.5Z"
+                      fill="#F5F5F5" />
+              </svg>
+          </div>
+          <div class="parentSVG rounded-full" (click)="suivant()">
+              <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M15.3536 3.64645C15.5488 3.84171 15.5488 4.15829 15.3536 4.35355L12.1716 7.53553C11.9763 7.7308 11.6597 7.7308 11.4645 7.53553C11.2692 7.34027 11.2692 7.02369 11.4645 6.82843L14.2929 4L11.4645 1.17157C11.2692 0.976311 11.2692 0.659728 11.4645 0.464466C11.6597 0.269204 11.9763 0.269204 12.1716 0.464466L15.3536 3.64645ZM0 3.5L15 3.5V4.5L0 4.5L0 3.5Z"
+                      fill="#F5F5F5" />
+              </svg>
+          </div>
+      </div>
+  </div>
+  <!-- Header -->
+  <header class="absolute header top-0 text-[#F5F5F5] w-full p-4">
+      <nav class="flex items-center justify-between w-full nav">
+          <div class="cursor-pointer">Abou Dev</div>
+          <div class="text-3xl">Realm of Legends</div>
+          <div class="cursor-pointer">Contact me</div>
+      </nav>
+  </header>
+  <!-- IMG CENTER -->
+  <div class="card-center">
+      <div class="relative w-[400px] h-[400px]">
+          <img class="absolute -top-9 z-50 hero_1" src="../assets/Rectangle 4.png" alt="">
+          <img class="absolute -top-10 rotate-[5deg] -right-1 z-40 hero_2" src="../assets/Rectangle 7.png" alt="">
+          <img class="absolute -top-14 rotate-[7deg] -right-2 z-30 hero_3" src="../assets/Rectangle 6.png" alt="">
+          <img class="absolute -top-16 rotate-[9deg] -right-2 z-10 hero_4" src="../assets/Rectangles 5.png" alt="">
+      </div>
+      <div class="p-1">
+          <div class="text-[#F5F5F5] text-4xl text-center mt-10 max-h-[40px] overflow-hidden">
+              <div class="heroName max-h-[40px] w-full">
+                  <div class="min-w-full min-h-full">Ravenna</div>
+                  <div class="min-w-full min-h-full">Drakonos</div>
+                  <div class="min-w-full min-h-full">Valkyra</div>
+                  <div class="min-w-full min-h-full">Ignatia</div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Footer -->
+  <footer class="w-full absolute bottom-0 text-[#F5F5F5]">
+      <div class="flex items-center w-full justify-between p-4">
+          <div class="text-xl flex items-center cursor-pointer">
+              <div class="self-end">Discord</div>
+              <div class="">
+                  <svg width="40px" height="35px" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+          </div>
+          <div class="text-4xl font-semibold max-h-[40px] overflow-hidden">
+              <div class="row_number max-h-[40px]">
+                  <div class="flex items-center max-h-[40px] text-[#f2f2f2] opacity-80">
+                    <div>0</div>
+                    <div>1</div>
+                  </div>
+                  <div class="flex items-center max-h-[40px] text-[#f2f2f2] opacity-80">
+                    <div>0</div>
+                    <div>2</div>
+                  </div>
+                  <div class="flex items-center max-h-[40px] text-[#f2f2f2] opacity-80">
+                    <div>0</div>
+                    <div>3</div>
+                  </div>
+                  <div class="flex items-center max-h-[40px] text-[#f2f2f2] opacity-80">
+                    <div>0</div>
+                    <div>4</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+</div>

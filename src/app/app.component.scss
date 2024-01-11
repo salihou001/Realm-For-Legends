@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Nunito", sans-serif;
+  }
+  .heroName{
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .bgName {
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text {
+    color: white;
+    opacity: 15%;
+    font-weight: 500;
+    font-size: 25rem;
+  }
+  .arrowSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .parentSVG {
+    position: relative;
+    padding: 4rem;
+    cursor: pointer;
+    border-raduis: 50%;
+    background: transparent;
+    transition: background 0.3s ease;
+  }
+  .parentSVG:hover {
+    background: rgba(100, 100, 100, 1);
+  }
+  .parentSVG svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .card-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .nav{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nav div:nth-child(2){
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
